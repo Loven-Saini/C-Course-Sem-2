@@ -1,9 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 int main(){
-    int a=3;
-    int c=a++*a++*a++;
-    int d= --a--;
-    printf("%d%d",c,a);
-    printf("%d",d);
+    char *x="IIT";
+    if(*x+1=='J')
+    printf("%c",*x++);
+    else
+    printf("%s",x);
+    char st[]="loven";
+    printf("%s \n",st);
+    printf("%p",strcmp("10","9"));
     return 0;
 }
