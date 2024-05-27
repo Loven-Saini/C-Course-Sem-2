@@ -9,5 +9,6 @@ int main(){
     char st[]="loven";
     printf("%s \n",st);
     printf("%p",strcmp("10","9"));
+    //trying contri from other one;
     return 0;
 }
